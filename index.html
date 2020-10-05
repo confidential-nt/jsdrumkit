@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS Drum Kit</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="keys">
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">hihat</span>
+      </div>
+      <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">kick</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">percussion</span>
+      </div>
+      <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">snare</span>
+      </div>
+      <div data-key="71" class="key">
+        <kbd>G</kbd>
+        <span class="sound">vocal_1</span>
+      </div>
+      <div data-key="72" class="key">
+        <kbd>H</kbd>
+        <span class="sound">vocal_2</span>
+      </div>
+      <div data-key="74" class="key">
+        <kbd>J</kbd>
+        <span class="sound">vocal_3</span>
+      </div>
+      <div data-key="75" class="key">
+        <kbd>K</kbd>
+        <span class="sound">vocal_4</span>
+      </div>
+      <div data-key="76" class="key">
+        <kbd>L</kbd>
+        <span class="sound">vocal_5</span>
+      </div>
+    </div>
+
+    <audio data-key="65" src="/sounds/H 1.wav"></audio>
+    <audio data-key="83" src="/sounds/K 1.wav"></audio>
+    <audio data-key="68" src="/sounds/Percussion 1.wav"></audio>
+    <audio data-key="70" src="/sounds/S 1.wav"></audio>
+    <audio data-key="71" src="/sounds/vocal_1.wav"></audio>
+    <audio data-key="72" src="/sounds/vocal_2.wav"></audio>
+    <audio data-key="74" src="/sounds/vocal_3.wav"></audio>
+    <audio data-key="75" src="/sounds/vocal_4.wav"></audio>
+    <audio data-key="76" src="/sounds/vocal_5.wav"></audio>
+
+    <script src="./jsdrumkit.js"></script>
+  </body>
+</html>
